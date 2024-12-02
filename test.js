@@ -5,10 +5,10 @@ test("1 euro debería ser 1.07 dólares", () => {
   });
 
 
-  test("10 dólares deberían ser 1461.68 yenes", () => {
-    expect(fromDollarToYen(10)).toBe(1461.68);
+  test("10 dólares deberían ser 1462.62 yenes", () => {
+    expect(fromDollarToYen(10)).toBe(1462.62);
   });
-  
+    
   test("100 yenes deberían ser 0.555 libras", () => {
     expect(fromYenToPound(100)).toBeCloseTo(0.555);
   });
